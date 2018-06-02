@@ -88,4 +88,10 @@ public class URLHelper {
         result.append(source.replaceAll("\\s", "%20"));
         return result.toString();
     }
+    public String getTranslateUrlFromFile(String filePath, String from, String to)throws IOException{
+        IFileReader reader = new FileUtil();
+        String source = reader.textInOneLine(filePath);
+        String resultUrl = getTranslateUrl(source, from, to);
+        return resultUrl;
+    }
 }

@@ -7,29 +7,24 @@ public class HttpTest {
 
 
     public void getTest(){
-
-        final OkHttpClient client = new OkHttpClient();
+        Request googleRequest = new Request.Builder()
+                .url("https://translate.google.cn/#zh-CN/en/农业国家")
+                .build();
+        OkHttpClient client = new OkHttpClient();
         try {
+            client.newCall(googleRequest).enqueue(new Callback() {
+                public void onFailure(Call call, IOException e) {
+                    System.out.println("Call failed.");
+                }
 
-            Thread httpThread = new Thread(new Runnable() {
+                public void onResponse(Call call, Response response) throws IOException {
+                    int code = response.code();
+                    System.out.println(code);
+                    if(200 == response.code()){
 
-                public void run() {
-                    try {
-                        Request request = new Request.Builder()
-//                .url("http://publicobject.com/helloworld.txt")
-                                .url("https://translate.google.cn/#zh-CN/en/农业国家")
-                                .build();
-                        System.out.println("start");
-                        Response response = client.newCall(request).execute();
-                        System.out.println(response.code());
-                    }catch (Exception e){
-                        e.printStackTrace();
                     }
                 }
             });
-            httpThread.start();
-            httpThread.join();
-            System.out.println("haha");
 
         }catch (Exception e){
             e.printStackTrace();
