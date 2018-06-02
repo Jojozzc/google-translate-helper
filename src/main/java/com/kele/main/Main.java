@@ -1,8 +1,10 @@
 package com.kele.main;
 
+import com.kele.test.GoogleApiTest;
 import com.kele.test.HttpTest;
 import com.kele.test.JsoupTest;
 import com.kele.utils.FileUtil;
+import com.kele.utils.GoogleApi;
 import com.kele.utils.IFileReader;
 import com.kele.utils.URLHelper;
 import org.jsoup.Jsoup;
@@ -14,18 +16,20 @@ public class Main {
     // 入口
 
     public static void main(String[] args){
-        welcome();
-        try{
-            mainApp(args);
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-//        testModel();
+//        welcome();
+//        try{
+//            mainApp(args);
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+        testModel();
     }
     public static void testModel(){
         System.out.println("测试模式");
-        HttpTest httpTest = new HttpTest();
-        httpTest.getTest();
+//        HttpTest httpTest = new HttpTest();
+//        httpTest.getTest();
+        GoogleApiTest googleApiTest = new GoogleApiTest();
+        googleApiTest.translateTest();
     }
 
     public static void welcome(){
