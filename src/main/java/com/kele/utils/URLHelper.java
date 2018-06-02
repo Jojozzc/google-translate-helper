@@ -11,8 +11,7 @@ public class URLHelper {
     public static String ENGLISH = "en";
     public static String CHINESE = "zh-CN";
     public static String TRANSLATE_URL = "https://translate.google.cn/";
-
-
+    public static int MAXTEXTSIZE = 5000;
     public String googleTranslateUrlWithoutNewline(String orginUrl){
         StringBuilder str = new StringBuilder();
         String[] sp = orginUrl.split("\\%0A");
@@ -79,6 +78,7 @@ public class URLHelper {
     public String getTranslateUrl(String source, String from, String to){
 
         StringBuilder result = new StringBuilder();
+        source = preProcess(source);
         result.append(TRANSLATE_URL);
         result.append('#');
         result.append(from);
@@ -93,5 +93,12 @@ public class URLHelper {
         String source = reader.textInOneLine(filePath);
         String resultUrl = getTranslateUrl(source, from, to);
         return resultUrl;
+    }
+    private String preProcess(String source){
+        if(source.length() <= MAXTEXTSIZE) return source;
+        else {
+            System.out.println("已裁剪至5000字数(含标点)");
+            return source.substring(0, MAXTEXTSIZE + 1);
+        }
     }
 }

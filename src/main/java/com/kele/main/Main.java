@@ -23,7 +23,7 @@ public class Main {
     }
     public static void welcome(){
         System.out.println("V 0.0");
-        System.out.println("翻译文字总超度请不要超过1500个字");
+        System.out.println("翻译文字总超度请不要超过5000个字（含标点），超出的部分会被忽略");
     }
     public static void mainApp(String[] args) throws Exception{
         Scanner in = new Scanner(System.in);
@@ -40,7 +40,7 @@ public class Main {
             switch (duty){
                 case 1:
                     source = fileUtil.textInOneLine(AppConfig.getSourceFilePath());
-                    System.out.println(helper.getTranslateUrl(source, URLHelper.CHINESE, URLHelper.ENGLISH));
+                    System.out.println(helper.getTranslateUrl(source, URLHelper.ENGLISH, URLHelper.CHINESE));
                     break;
                 case 2:
                     config();
@@ -51,6 +51,28 @@ public class Main {
     }
 
     public static void config(){
-        System.out.println("暂无配置选项");
+        Scanner in = new Scanner(System.in);
+        int code;
+        String newFilePath = "";
+        while (true){
+            System.out.println("配置");
+            System.out.println("1 更改原文目录");
+            System.out.println("0 保存并返回上一级");
+            System.out.println("9 取消");
+            code = in.nextInt();
+            switch (code){
+                case 1:
+                    System.out.println("请输入完整文件目录:");
+                    newFilePath = in.next();
+                    break;
+                case 0:
+                    AppConfig.setSourceFilePath(newFilePath);
+                    return;
+                case 9:
+                    return;
+                    default:break;
+            }
+        }
     }
+
 }
