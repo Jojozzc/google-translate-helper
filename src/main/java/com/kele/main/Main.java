@@ -20,7 +20,14 @@ public class Main {
         }catch (Exception e){
             e.printStackTrace();
         }
+//        testModel();
     }
+    public static void testModel(){
+        System.out.println("测试模式");
+        HttpTest httpTest = new HttpTest();
+        httpTest.getTest();
+    }
+
     public static void welcome(){
         System.out.println("V 0.0");
         System.out.println("翻译文字总超度请不要超过5000个字（含标点），超出的部分会被忽略");
