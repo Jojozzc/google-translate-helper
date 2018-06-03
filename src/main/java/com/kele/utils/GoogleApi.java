@@ -33,7 +33,7 @@ public class GoogleApi {
 //        browser.setUrl("https://translate.google.cn/");
         String url = "https://translate.google.cn/";
         try{
-            String result = browser.executeGet(url);
+            String result = browser.executeGetWithProxy(url);
 //            if(StringUtils.isNotBlank(result)){
             if(!(result == null || result.length() == 0)){
                 if(result.indexOf("TKK") > -1){
@@ -91,7 +91,7 @@ public class GoogleApi {
         System.out.println("使用服务器请求");
         browser.setUrl(buffer.toString());
         try{
-            String result = browser.executeGet(buffer.toString());
+            String result = browser.executeGetWithProxy(buffer.toString());
             System.out.println("服务器返回json:");
             System.out.println(result);
 //            JSONArray array = (JSONArray) JSONArray.parse(result);

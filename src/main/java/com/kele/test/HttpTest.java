@@ -1,8 +1,12 @@
 package com.kele.test;
 
+import com.kele.model.NetConfig;
 import okhttp3.*;
 import org.junit.Test;
 import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.net.Proxy;
+
 public class HttpTest {
 
     public void getTest(){
@@ -41,6 +45,27 @@ public class HttpTest {
                 }
             });
 
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void proxyTest(){
+        OkHttpClient client = new OkHttpClient.Builder()
+                .proxy(new Proxy(Proxy.Type.SOCKS, new InetSocketAddress(NetConfig.PROXY_HOST_IP, NetConfig.PROXY_HOST_PORT)))
+                .build();
+        String result = "";
+        String url = "https://translate.google.cn/";
+
+        Request request = new Request.Builder()
+                .url(url)
+                .get()
+                .build();
+        try{
+            Response response = client.newCall(request).execute();
+            result = response.body().string();
+            System.out.println(result);
         }catch (Exception e){
             e.printStackTrace();
         }

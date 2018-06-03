@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e47bf57-a172-4ae1-8afa-a01949b8da07" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/getttk.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kele/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kele/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googleTranslationHelper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/googleTranslationHelper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kele/model/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kele/model/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kele/test/GoogleApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kele/test/GoogleApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kele/test/HttpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kele/test/HttpTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kele/utils/GoogleApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kele/utils/GoogleApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kele/utils/PDFUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kele/utils/PDFUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kele/model/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kele/model/Browser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kele/test/GoogleApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kele/test/GoogleApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kele/test/HttpTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kele/test/HttpTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kele/test/HttpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kele/test/HttpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kele/utils/GoogleApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kele/utils/GoogleApi.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +30,8 @@
       <file leaf-file-name="GoogleApi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/GoogleApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            <state relative-caret-position="181">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,83 +39,82 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TokenHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/TokenHelper.java">
+      <file leaf-file-name="HttpTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/HttpTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="595">
+              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
               <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#121#122#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getttk.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/getttk.js">
+      <file leaf-file-name="GoogleApiTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/GoogleApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="-77">
+              <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Browser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="result1.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/result1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PDFUtilTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/PDFUtilTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/FileUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URLHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/URLHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Browser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/model/Browser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="38" column="94" lean-forward="true" selection-start-line="38" selection-start-column="94" selection-end-line="38" selection-end-column="94" />
+            <state relative-caret-position="195">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#302#303#0" expanded="true" />
                 <element signature="e#332#333#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleApiTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/GoogleApiTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/main/AppConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
-              <folding>
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NetConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/model/NetConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -137,20 +145,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kele/utils/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kele/utils/URLHelper.java" />
         <option value="$PROJECT_DIR$/README.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kele/utils/PDFUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kele/test/PDFUtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kele/utils/GoogleTslHTMLParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kele/utils/OkHttpUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kele/test/HttpTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kele/test/JsoupTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kele/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kele/utils/GoogleApi.java" />
         <option value="$PROJECT_DIR$/src/getttk.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/kele/utils/TokenHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kele/test/GoogleApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kele/utils/PDFUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kele/utils/SentenceDivider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kele/test/SentenceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kele/test/HttpTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kele/model/NetConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kele/model/Browser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kele/utils/GoogleApi.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/result1.json" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kele/test/GsonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kele/test/GoogleApiTest.java" />
       </list>
     </option>
   </component>
@@ -268,6 +280,13 @@
               <item name="kele" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="googleTranslationHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="googleTranslationHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -282,7 +301,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -299,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.GsonTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kele.main.Main" />
       <module name="googleTranslationHelper" />
@@ -337,6 +356,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="GsonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="googleTranslationHelper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kele.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kele.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kele.test.GsonTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="HttpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="googleTranslationHelper" />
       <extension name="coverage">
@@ -360,7 +402,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="JsoupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SentenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="googleTranslationHelper" />
       <extension name="coverage">
         <pattern>
@@ -371,30 +413,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.kele.test" />
-      <option name="MAIN_CLASS_NAME" value="com.kele.test.JsoupTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PDFUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="googleTranslationHelper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kele.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kele.test" />
-      <option name="MAIN_CLASS_NAME" value="com.kele.test.PDFUtilTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kele.test.SentenceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -446,18 +465,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.JsoupTest" />
-      <item itemvalue="JUnit.PDFUtilTest" />
       <item itemvalue="JUnit.HttpTest" />
       <item itemvalue="JUnit.GoogleApiTest" />
+      <item itemvalue="JUnit.SentenceTest" />
+      <item itemvalue="JUnit.GsonTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.GsonTest" />
         <item itemvalue="JUnit.GoogleApiTest" />
-        <item itemvalue="JUnit.JsoupTest" />
         <item itemvalue="JUnit.HttpTest" />
-        <item itemvalue="JUnit.PDFUtilTest" />
+        <item itemvalue="JUnit.SentenceTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -471,44 +490,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527769378583</updated>
-      <workItem from="1527769383251" duration="44285000" />
+      <workItem from="1527769383251" duration="51978000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JsoupTest - 2018.06.02 at 18h 01m 38s.xml">
-      <configuration name="JsoupTest" configurationId="JUnit" />
+    <history-entry file="HttpTest - 2018.06.03 at 09h 37m 29s.xml">
+      <configuration name="HttpTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleApiTest - 2018.06.02 at 22h 10m 50s.xml">
+    <history-entry file="HttpTest - 2018.06.03 at 09h 37m 45s.xml">
+      <configuration name="HttpTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpTest - 2018.06.03 at 09h 38m 03s.xml">
+      <configuration name="HttpTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleApiTest - 2018.06.03 at 09h 52m 02s.xml">
       <configuration name="GoogleApiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleApiTest - 2018.06.02 at 22h 12m 35s.xml">
-      <configuration name="GoogleApiTest" configurationId="JUnit" />
+    <history-entry file="GsonTest - 2018.06.03 at 10h 08m 25s.xml">
+      <configuration name="GsonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleApiTest - 2018.06.02 at 22h 13m 20s.xml">
-      <configuration name="GoogleApiTest" configurationId="JUnit" />
+    <history-entry file="GsonTest - 2018.06.03 at 10h 09m 37s.xml">
+      <configuration name="GsonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleApiTest - 2018.06.02 at 22h 16m 25s.xml">
-      <configuration name="GoogleApiTest" configurationId="JUnit" />
+    <history-entry file="GsonTest - 2018.06.03 at 10h 11m 31s.xml">
+      <configuration name="GsonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleApiTest - 2018.06.02 at 22h 17m 17s.xml">
-      <configuration name="GoogleApiTest" configurationId="JUnit" />
+    <history-entry file="GsonTest - 2018.06.03 at 10h 12m 00s.xml">
+      <configuration name="GsonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleApiTest - 2018.06.02 at 22h 19m 04s.xml">
-      <configuration name="GoogleApiTest" configurationId="JUnit" />
+    <history-entry file="GsonTest - 2018.06.03 at 10h 13m 18s.xml">
+      <configuration name="GsonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleApiTest - 2018.06.02 at 22h 19m 14s.xml">
-      <configuration name="GoogleApiTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleApiTest - 2018.06.02 at 22h 22m 08s.xml">
-      <configuration name="GoogleApiTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleApiTest - 2018.06.02 at 22h 22m 36s.xml">
-      <configuration name="GoogleApiTest" configurationId="JUnit" />
+    <history-entry file="GsonTest - 2018.06.03 at 10h 13m 42s.xml">
+      <configuration name="GsonTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44285000" />
+    <option name="totallyTimeSpent" value="51978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -521,7 +540,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" weight="0.10151515" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26929393" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44663382" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32840723" />
       <window_info id="Designer" />
@@ -574,14 +593,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/kele/test/GoogleApiTest.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
   </component>
@@ -607,37 +618,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/googleTranslationHelper.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/HttpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/PDFUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/URLHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -656,23 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/URLHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="94" column="25" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/PDFUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/OkHttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -680,30 +645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/GoogleTslHTMLParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/JsoupTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -731,41 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/TokenHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/GoogleApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/GoogleApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,21 +696,154 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/GoogleTslHTMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/PDFUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/model/NetConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="68">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/TokenHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/SentenceDivider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#555#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/SentenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/URLHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/model/Browser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="38" column="94" lean-forward="true" selection-start-line="38" selection-start-column="94" selection-end-line="38" selection-end-column="94" />
+        <state relative-caret-position="195">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#302#303#0" expanded="true" />
             <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/utils/GoogleApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/HttpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/PDFUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/result1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/GsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kele/test/GoogleApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -858,7 +905,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

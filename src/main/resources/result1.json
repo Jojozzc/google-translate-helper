@@ -1,0 +1,46 @@
+[
+  [
+    [
+      "第四节对三种模型的重新识别性能进行了全面评估。",// 翻译结果
+      "The re-ID performanceof the three models is comprehensively evaluated in SectionIV.",// 原文
+      null,
+      null,
+      3
+    ],
+    [
+      "在这里，我们没有提供CNN模型体系结构的详细描述，只是将CaffeNet作为下面小节的一个例子。",
+      "Here, we do not provide detailed descriptions of thearchitecture of the CNN models and only take CaffeNet as anexample in the following subsections.",
+      null,
+      null,
+      3
+    ],
+    [
+      "三个优化目标包括两个识别损失和一个验证损失。",
+      "The three optimizationobjectives include two identification losses and one verificationloss.",
+      null,
+      null,
+      3
+    ],
+    [
+      "我们使用最终的卷积激活f作为个人身份识别的歧视描述符，这是直接由三个目标监督的。",
+      "We use the final convolutional activations f as thediscriminative descriptor for person re-ID, which is directlysupervised by three objectives.C.",
+      null,
+      null,
+      3],
+    [
+      null,null,"Dì sì jié duì sān zhǒng móxíng de chóngxīn shìbié xìngnéng jìnxíngle quánmiàn pínggū. Zài zhèlǐ, wǒmen méiyǒu tígōng CNN móxíng tǐxì jiégòu de xiángxì miáoshù, zhǐshì jiāng CaffeNet zuòwéi xiàmiàn xiǎojié de yīgè lìzi. Sān gè yōuhuà mùbiāo bāokuò liǎng gè shìbié sǔnshī hé yīgè yànzhèng sǔnshī. Wǒmen shǐyòng zuìzhōng de juàn jī jīhuó f zuòwéi gèrén shēnfèn shìbié de qíshì miáoshù fú, zhè shì zhíjiē yóu sān gè mùbiāo jiāndū de."]],null,"",null,null,[["The re-ID performanceof the three models is comprehensively evaluated in SectionIV.",null,[["第四节对三种模型的重新识别性能进行了全面评估。",0,true,false],
+  ["重新ID performanceof三款车型在SectionIV的综合评价。",0,true,false]],[[0,83]],"The re-ID performanceof the three models is comprehensively evaluated in SectionIV.",0,0],
+  ["Here, we do not provide detailed descriptions of thearchitecture of the CNN models and only take CaffeNet as anexample in the following subsections.",
+    null,
+    [
+      [
+        "在这里，我们没有提供CNN模型体系结构的详细描述，只是将CaffeNet作为下面小节的一个例子。",0,true,false],
+      [
+        "在这里，我们不提供thearchitecture的CNN模型的详细说明，只需要CaffeNet作为anexample以下小节。",0,true,false]],[[0,148]],
+    "Here, we do not provide detailed descriptions of thearchitecture of the CNN models and only take CaffeNet as anexample in the following subsections.",0,0],
+  ["The three optimizationobjectives include two identification losses and one verificationloss.",null,[["三个优化目标包括两个识别损失和一个验证损失。",0,true,false],["这三个optimizationobjectives包括两个识别负一个verificationloss。",0,true,false]],[[0,92]],"The three optimizationobjectives include two identification losses and one verificationloss.",0,0],["We use the final convolutional activations f as thediscriminative descriptor for person re-ID, which is directlysupervised by three objectives.C.",null,
+    [
+      [
+        "我们使用最终的卷积激活f作为个人身份识别的歧视描述符，这是直接由三个目标监督的。",0,true,false],["我们用最后的卷积激活˚F作为thediscriminative描述的人重新编号，这是由三个objectives.C directlysupervised。",0,true,false]],[[0,145]],"We use the final convolutional activations f as thediscriminative descriptor for person re-ID, which is directlysupervised by three objectives.C.",0,0]],1,null,[["en"],null,[1],["en"]
+]
+]
