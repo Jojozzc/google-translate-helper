@@ -3,6 +3,7 @@ package com.kele.main;
 import com.kele.test.GoogleApiTest;
 import com.kele.test.HttpTest;
 import com.kele.test.JsoupTest;
+import com.kele.test.ReadSourceUtil;
 import com.kele.utils.FileUtil;
 import com.kele.utils.GoogleApi;
 import com.kele.utils.IFileReader;
@@ -16,13 +17,13 @@ public class Main {
     // 入口
 
     public static void main(String[] args){
-//        welcome();
-//        try{
-//            mainApp(args);
-//        }catch (Exception e){
-//            e.printStackTrace();
-//        }
-        testModel();
+        welcome();
+        try{
+            mainApp(args);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+//        testModel();
     }
     public static void testModel(){
         System.out.println("测试模式");
@@ -45,6 +46,7 @@ public class Main {
             System.out.println("选项：");
             System.out.println("1 以当前配置进行翻译");
             System.out.println("2 配置");
+            System.out.println("3 手动模式");
             System.out.println("0 退出");
             int duty = in.nextInt();
             if(duty == 0) break;
@@ -56,6 +58,9 @@ public class Main {
                 case 2:
                     config();
                     break;
+                case 3:
+                    source = ReadSourceUtil.readWholeTextFromTerminal();
+                    System.out.println(helper.getTranslateUrl(source, URLHelper.ENGLISH, URLHelper.CHINESE));
                 default:break;
             }
         }

@@ -9,8 +9,5 @@
         <module name="googleTranslationHelper" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="googleTranslationHelper" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

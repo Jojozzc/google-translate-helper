@@ -78,7 +78,11 @@ public class URLHelper {
     public String getTranslateUrl(String source, String from, String to){
 
         StringBuilder result = new StringBuilder();
+        String mid;
         source = preProcess(source);
+        mid = source.replaceAll("-\n", "");
+        mid = mid.replaceAll("\n", "");
+        System.out.println(mid);
         result.append(TRANSLATE_URL);
         result.append('#');
         result.append(from);
